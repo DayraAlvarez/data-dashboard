@@ -126,15 +126,16 @@ a.sedes {
 
 #genSprints {
   background-color: #157491;
+  color: #c5e2ff;
   display: block;
-  font-size: 25px;
+  font-size: 23px;
   padding-left: 10px;
   position: relative;
   padding: 3px;
   border-radius: 4px;
   left: 12.5%;
   margin-top: 3%;
-  width: 47%;
+  width: 45%;
 }
 
 .sprint {
@@ -153,11 +154,22 @@ a.sedes {
   position:relative;
 }
 
+#classTittle {
+  position: relative;
+  color: #c5e2ff;
+  margin-bottom: 30px;
+  left:8px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
 #classroom {
   display: block;
   position: relative;
-  left: 40%;
-  margin-top: 8%;
+  left: 13%;
+  margin-top: 7%;
+  padding: 0;
+  margin-bottom: -10px;
 }
 
 #search {
@@ -203,6 +215,7 @@ a.sedes {
   background-color: #497AB2 ;
 }
 
+
 .inactive {
   background-color: pink;
   border-radius: 50%;
@@ -210,4 +223,35 @@ a.sedes {
 
 .newElementStyle {
   color:black;
+}
+
+#botonEstudiante {
+  background-color:#a3adaf;
+}
+
+#botonEstudiante.si {
+  background-color: #fcfc97;
+}
+
+#botonEstudiante.verde {
+  background-color: #40ddae;
+}
+
+#botonEstudiante.orange {
+  background-color: #fcd083;
+}
+
+#botonEstudiante.red {
+  background-color: #ff7c7c;
+}
+
+#results {
+background-color: none;
+color: #c5e2ff;
+}
+
+#photo {
+  height: 60px;
+  width: 60px;
+  position: relative;
 }
